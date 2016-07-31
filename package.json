@@ -1,0 +1,38 @@
+{
+    "author": "gustavo.recio@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "pokemon-notifier",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable"
+        ],
+        "displayName": "Pokemon Notifier",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/app_icon",
+                    "menuIcon": true,
+                    "name": "APP_ICON",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite"
+        ],
+        "uuid": "6769e9bb-8eb2-432a-ae49-050a3859f5ff",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
